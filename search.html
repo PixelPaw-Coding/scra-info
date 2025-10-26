@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scra-INFO Search</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Custom Search -->
   <script async src="https://cse.google.com/cse.js?cx=54dde475a236e4234"></script>
 </head>
 <body>
@@ -19,8 +20,11 @@
   <main>
     <section class="search-section">
       <h2>Search the Scratch Forums</h2>
-      <!-- This will redirect results to search-results.html -->
-      <div class="gcse-search" data-link-target="_self" data-resultsUrl="search-results.html"></div>
+      <!-- Search bar points to search-results.html, no popup -->
+      <div class="gcse-search" 
+           data-resultsUrl="search-results.html" 
+           data-newWindow="false">
+      </div>
     </section>
   </main>
 
